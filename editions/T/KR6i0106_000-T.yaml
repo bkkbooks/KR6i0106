@@ -1,0 +1,17 @@
+canonical_identifier: bkk:krp/KR6i0106/t/v1/juan/0
+seq: 0
+front:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+body:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 佛說大方等頂王經
+  edition:
+    short: t
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T14/T14n0477.xml
+    old_id: T14n0477
+hash: sha256:375ce52d660022bd792374e619185cc4d1f9c0ef0318afd69719436b944d6704

@@ -1,0 +1,38 @@
+canonical_identifier: bkk:krp/KR6i0106/T/v1
+canonical_location: https://kanripo.org/bkk/KR6i0106/T/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 佛說大方等頂王經
+  identifiers:
+    krp: KR6i0106
+    cbeta: T14n0477
+    cbeta_old_id: T14n0477
+    authorityid: CA0000775
+    json_key: T0477
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T14/T14n0477.xml
+    old_id: T14n0477
+  edition:
+    short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6i0106_000-T.yaml, hash: 'sha256:375ce52d660022bd792374e619185cc4d1f9c0ef0318afd69719436b944d6704'}
+  - {seq: 1, filename: KR6i0106_001-T.yaml, hash: 'sha256:c03bef76bd5d0b9ca72653c7c98540193365fec517be6d8ef227ee0a9143d4f9'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR6i0106_000-T.markers.yaml, hash: 'sha256:901ad8a6e66ee65b437bcdd7ddea6953c667ff4bb999ae2629859a949a839f16'}
+  - {seq: 1, role: markers, filename: assets/KR6i0106_001-T.markers.yaml, hash: 'sha256:4c00c92c475f476b5a0156f5d314d53050bd128c9f1d26549dc2316eb3b5cd46'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6i0106_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 9535
+  label: 佛說大方等頂王經一名維摩詰子問
+  type: juan
+  level: 1
+hash: sha256:02e2ff478030ec3e82db11cf3b5538dfa2a4377f2c2a27d4dbd3cecc318bc5f7

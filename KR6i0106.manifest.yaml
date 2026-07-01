@@ -1,0 +1,54 @@
+canonical_identifier: bkk:krp/KR6i0106/v1
+canonical_location: https://kanripo.org/bkk/KR6i0106/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 佛說大方等頂王經
+  identifiers:
+    alt_id:
+    - T14n0477
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T14/T14n0477.xml
+    old_id: T14n0477
+  edition:
+    short: bkk
+editions:
+- short: 宋
+  label: 宋
+  source_xml_id: wit1
+- short: 元
+  label: 元
+  source_xml_id: wit2
+- short: 明
+  label: 明
+  source_xml_id: wit3
+- short: 宮
+  label: 宮
+  source_xml_id: wit4
+- short: 大
+  label: 大
+  source_xml_id: wit.orig
+- short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6i0106_000.yaml, hash: 'sha256:375ce52d660022bd792374e619185cc4d1f9c0ef0318afd69719436b944d6704'}
+  - {seq: 1, filename: KR6i0106_001.yaml, hash: 'sha256:9b00a6726dcb2f155a0d3e2cc4952155a1b074b9f11f0b4ac27e4c5f5555db41'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6i0106_001.markers.yaml, hash: 'sha256:dcfa840c84ce9a13670be572a2d136fba032f0614990954a88aae66ceb2afc19'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6i0106_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 9535
+  label: 佛說大方等頂王經一名維摩詰子問
+  type: juan
+  level: 1
+hash: sha256:f98d7d03d527f1d81c1e26fbbf879edb8a1d29e504f2913f4d1b4f29930863c1
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
