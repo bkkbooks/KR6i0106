@@ -34,9 +34,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6i0106_000.yaml, hash: 'sha256:375ce52d660022bd792374e619185cc4d1f9c0ef0318afd69719436b944d6704'}
-  - {seq: 1, filename: KR6i0106_001.yaml, hash: 'sha256:9b00a6726dcb2f155a0d3e2cc4952155a1b074b9f11f0b4ac27e4c5f5555db41'}
+  - {seq: 1, filename: KR6i0106_001.yaml, hash: 'sha256:c03bef76bd5d0b9ca72653c7c98540193365fec517be6d8ef227ee0a9143d4f9'}
   markers:
-  - {seq: 1, role: markers, filename: assets/KR6i0106_001.markers.yaml, hash: 'sha256:dcfa840c84ce9a13670be572a2d136fba032f0614990954a88aae66ceb2afc19'}
+  - {seq: 0, role: markers, filename: assets/KR6i0106_000.markers.yaml, hash: 'sha256:60c74bb126ab6ee3446b2f4baedf06a7f1588900ba05d9e238b9d5d98a317c42'}
+  - {seq: 1, role: markers, filename: assets/KR6i0106_001.markers.yaml, hash: 'sha256:90a1541cf4f7af89341bbf109f91cac3f72050384aed494842d705a42cc0a713'}
 table_of_contents:
 - ref:
     seq: 1
@@ -48,7 +49,4 @@ table_of_contents:
   label: 佛說大方等頂王經一名維摩詰子問
   type: juan
   level: 1
-hash: sha256:f98d7d03d527f1d81c1e26fbbf879edb8a1d29e504f2913f4d1b4f29930863c1
-mappings:
-- canonical_identifier: bkk:mapping/variant-fold-v1
-  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
+hash: sha256:cde5014851d1d7c5d8233a62e308f298a000e161b9351fdd1a4b43ed74f405ec
