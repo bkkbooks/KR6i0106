@@ -2,7 +2,7 @@ canonical_identifier: bkk:krp/KR6i0106/v1
 canonical_location: https://kanripo.org/bkk/KR6i0106/v1
 canonical_set:
   identifier: bkk:charset/cjk-v1
-  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+  hash: sha256:37995e65f5e6cdc8cfbc980fea50ec86663e3e7de950809f7e37f003754b3227
 metadata:
   title: 佛說大方等頂王經
   identifiers:
@@ -34,10 +34,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6i0106_000.yaml, hash: 'sha256:375ce52d660022bd792374e619185cc4d1f9c0ef0318afd69719436b944d6704'}
-  - {seq: 1, filename: KR6i0106_001.yaml, hash: 'sha256:c03bef76bd5d0b9ca72653c7c98540193365fec517be6d8ef227ee0a9143d4f9'}
+  - {seq: 1, filename: KR6i0106_001.yaml, hash: 'sha256:31bddb9daa4b00ca185d77e4c6f01eaf484d66eb697ca1164572493f9c56dac1'}
   markers:
   - {seq: 0, role: markers, filename: assets/KR6i0106_000.markers.yaml, hash: 'sha256:60c74bb126ab6ee3446b2f4baedf06a7f1588900ba05d9e238b9d5d98a317c42'}
-  - {seq: 1, role: markers, filename: assets/KR6i0106_001.markers.yaml, hash: 'sha256:90a1541cf4f7af89341bbf109f91cac3f72050384aed494842d705a42cc0a713'}
+  - {seq: 1, role: markers, filename: assets/KR6i0106_001.markers.yaml, hash: 'sha256:bf42978b340e5ac6568e52a8cb0c4fe5f2f55505d60775b9e9119e38e07056d4'}
 table_of_contents:
 - ref:
     seq: 1
@@ -49,4 +49,7 @@ table_of_contents:
   label: 佛說大方等頂王經一名維摩詰子問
   type: juan
   level: 1
-hash: sha256:cde5014851d1d7c5d8233a62e308f298a000e161b9351fdd1a4b43ed74f405ec
+hash: sha256:7b52016a0f5570f9f745a12a348c1ecf05e23aa5de22a6f676bc9fa36e2567f7
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:9bc9a4233a10ab6fe6494b31262c157187fd580f02a97cad91be81ccd48f7a20
